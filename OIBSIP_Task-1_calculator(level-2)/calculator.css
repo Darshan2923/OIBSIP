@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(135deg, rgb(68, 68, 233), rgb(63, 154, 154));
+}
+
+.display-box {
+    font-family: "Orbitron", sans-serif;
+    background-color: skyblue;
+    border: solid white 0.5px;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    display: inline;
+}
+
+.calculator {
+    padding-top: 50px;
+    padding: 5px;
+    border-radius: 1em;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-color: rgb(11, 4, 4);
+    box-shadow: rgba(0.5, 0.5, 0.5, 0.5) 15px 15px 20px, rgba(0.23, 0.23, 0.23, 0.23) 0px 0px 7px;
+}
+
+#btn {
+    background-color: #2a8eff;
+    color: rgb(17, 14, 14);
+    cursor: pointer;
+}
+
+#operator {
+    background-color: rgb(196, 169, 135);
+    color: rgb(14, 12, 12);
+}
+
+input[type="button"] {
+    font-family: "Orbitron", sans-serif;
+    background-color: #121010;
+    color: rgb(225, 206, 206);
+    border: solid rgb(236, 227, 227) 0.5px;
+    width: 80px;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+}
+
+input:active[type="button"] {
+    background: rgb(11, 10, 10);
+    -webkit-box-shadow: inset 0px 0px 5px rgb(20, 18, 18);
+    -moz-box-shadow: inset 0px 0px 5px rgb(12, 9, 9);
+    box-shadow: inset 0px 0px 5px rgb(7, 6, 6);
+}
+
+#clr {
+    background-color: #fa6666;
+    color: rgb(23, 19, 19);
+    height: 50px;
+    width: 106px;
+    padding: 0px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    row-gap: 0px;
+}
+
+td {
+    margin: 0px;
+    padding: 1px;
+    font-weight: bolder;
+}
+
+h1 {
+    color: blanchedalmond;
+}
